@@ -1,0 +1,38 @@
+ORCA ONE HARDWARE DESIGN - PROPRIETARY LICENSE NOTICE
+
+Copyright (c) 2026 Finn Mather. All rights reserved.
+
+The Orca One hardware design, including without limitation its schematics,
+printed circuit board layouts, fabrication data, bills of materials, images,
+documentation, and associated source files (collectively, the "Design"), is
+proprietary.
+
+Access to or possession of the Design does not grant any patent, copyright,
+design, mask-work, trademark, trade-secret, or other intellectual-property
+license, whether express, implied, by estoppel, or otherwise.
+
+Except for the limited rights required to view or fork public content through
+GitHub under GitHub's Terms of Service, or as otherwise required by applicable
+law, no permission is granted to:
+
+1. copy or reproduce the Design;
+2. modify, adapt, translate, or create derivative works from the Design;
+3. manufacture, fabricate, assemble, test, or commission any product based on
+   the Design;
+4. distribute, publish, sublicense, transfer, or make the Design available to
+   any third party; or
+5. use the Design or any derivative for commercial or non-commercial purposes.
+
+Any permission must be obtained in advance and in writing from the copyright
+owner. Permission requests may be submitted to the repository owner through
+GitHub.
+
+Third-party names, components, libraries, models, and trademarks remain the
+property of their respective owners and may be subject to separate terms.
+
+Nothing in this notice limits any right that cannot lawfully be restricted.
+THE DESIGN IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, TITLE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY LAW,
+THE COPYRIGHT OWNER SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM THE DESIGN OR ITS USE.

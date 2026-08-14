@@ -1,30 +1,78 @@
+<div align="center">
+
 # Orca One V1.0
 
-Orca One is a custom single-board computer built around the Allwinner V3s system-on-chip. This repository contains the editable hardware design, bill of materials, fabrication outputs, and board bring-up documentation.
+### A custom Allwinner V3s single-board computer
 
-> **Project status:** Early hardware revision. The design and fabrication files are provided for review and bring-up and have not yet been documented as production-ready.
+Hardware design · PCB layout · Manufacturing files · Bring-up documentation
+
+</div>
+
+> [!IMPORTANT]
+> **Proprietary design — all rights reserved.** The files are public for viewing and evaluation only. No permission is granted to manufacture, copy, modify, redistribute, or sell this design. See the [license](LICENSE) for the complete terms.
+
+> [!WARNING]
+> **Early hardware revision.** The design and fabrication files have not yet been documented as production-ready.
 
 ## Board renders
 
-### Front
+| Front | Back |
+| :---: | :---: |
+| <img src="images/orca-one-front.png" alt="Orca One V1.0 front render" width="420"> | <img src="images/orca-one-back.png" alt="Orca One V1.0 back render" width="420"> |
 
-![Orca One V1.0 front render](images/orca-one-front.png)
+## Design overview
 
-### Back
+The complete editable schematic is included in the KiCad project. Expand a section below for a quick visual tour.
 
-![Orca One V1.0 back render](images/orca-one-back.png)
+<details>
+<summary><strong>Power system</strong> — USB-C input and regulated power rails</summary>
 
-## Schematic overview
+### USB-C power input
 
-| Power input | Power rails |
-| --- | --- |
-| ![USB-C power input schematic](images/schematic-usb-c-power.png) | ![Power rail schematic](images/schematic-power-rails.png) |
-| **USB-A 2.0** | **MicroSD card** |
-| ![USB-A schematic](images/schematic-usb-a.png) | ![MicroSD card schematic](images/schematic-sd-card.png) |
-| **Ethernet** | **Decoupling and bulk capacitors** |
-| ![Ethernet schematic](images/schematic-ethernet.png) | ![Decoupling capacitor schematic](images/schematic-decoupling.png) |
-| **Expansion and debug headers** | **Allwinner V3s** |
-| ![Fan, UART, and GPIO header schematic](images/schematic-headers.png) | ![Allwinner V3s schematic](images/schematic-allwinner-v3s.png) |
+![USB-C power input schematic](images/schematic-usb-c-power.png)
+
+### Regulated power rails
+
+![Power rail schematic](images/schematic-power-rails.png)
+
+</details>
+
+<details>
+<summary><strong>External interfaces</strong> — USB-A, MicroSD, and Ethernet</summary>
+
+### USB-A 2.0
+
+![USB-A schematic](images/schematic-usb-a.png)
+
+### MicroSD card
+
+![MicroSD card schematic](images/schematic-sd-card.png)
+
+### Ethernet
+
+![Ethernet schematic](images/schematic-ethernet.png)
+
+</details>
+
+<details>
+<summary><strong>Processor and supporting circuitry</strong> — Allwinner V3s and decoupling</summary>
+
+### Allwinner V3s
+
+![Allwinner V3s schematic](images/schematic-allwinner-v3s.png)
+
+### Decoupling and bulk capacitors
+
+![Decoupling capacitor schematic](images/schematic-decoupling.png)
+
+</details>
+
+<details>
+<summary><strong>Expansion and debug</strong> — fan, UART, and GPIO headers</summary>
+
+![Fan, UART, and GPIO header schematic](images/schematic-headers.png)
+
+</details>
 
 ## Repository contents
 
@@ -50,4 +98,4 @@ Review the schematic, PCB, BOM, placement data, and fabrication outputs carefull
 
 ## License
 
-No hardware or documentation license has been selected yet. Unless and until a license file is added, the design remains subject to the repository owner's default copyright rights.
+Copyright © 2026 Finn Mather. All rights reserved. This is **not an open-source hardware project**. See [LICENSE](LICENSE) for the complete proprietary terms and instructions for requesting permission.
