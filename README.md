@@ -9,7 +9,7 @@ Hardware design · PCB layout · ORCA OS testing · Bring-up documentation
 </div>
 
 > [!IMPORTANT]
-> **Proprietary design — all rights reserved.** The files are public for viewing and evaluation only. No permission is granted to manufacture, copy, modify, redistribute, or sell this design. See the [license](LICENSE) for the complete terms.
+> **Open-source hardware.** Orca One V1.0 is released under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0). You may study, modify, manufacture, and redistribute the design subject to the license terms. See [LICENSE](LICENSE).
 
 > [!WARNING]
 > **Early hardware revision.** Orca One V1.0 has not been manufactured or tested yet. The board is currently waiting on funding before manufacturing.
@@ -180,8 +180,6 @@ The complete editable schematic is included in the KiCad project. Expand a secti
 <details>
 <summary><strong>Processor and supporting circuitry</strong> — Allwinner V3s and decoupling</summary>
 
-### Allwinner V3s
-
 ![Allwinner V3s schematic](images/schematic-allwinner-v3s.png)
 
 ### Decoupling and bulk capacitors
@@ -223,4 +221,6 @@ This is the first hardware revision and has not yet been physically tested. Manu
 
 ## License
 
-Copyright © 2026 Finn Mather. All rights reserved. This is **not an open-source hardware project**. See [LICENSE](LICENSE) for the complete proprietary terms and instructions for requesting permission.
+Copyright © 2026 Finn Mather.
+
+Orca One V1.0 is open-source hardware licensed under **CERN-OHL-S-2.0**. You may study, modify, manufacture, and redistribute the design under the terms of the license. See [LICENSE](LICENSE) for details.
